@@ -1,0 +1,211 @@
+
+/*colors: #f5f8fa*/
+
+
+*, .btn {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  text-transform: none;
+}
+a:hover, a {
+    text-decoration: none!important;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.6em;
+}
+h4 {
+    font-size: 1.4em;
+}
+h5 {
+    font-size: 1.2em;
+}
+.no-pad-marg {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.btn {
+    border-radius: 7px;
+    border: 1px solid;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.news_letter_btn, #dropdownMenuLink {
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: none;
+}
+header.masthead {
+    background-image: url('../img/home-bg.jpg');
+    height: 50vh;
+}
+div#landing-4 {
+    background: url('../img/landing-4.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+.landing-4-pholder {
+    height: 65vh;
+    width: auto;
+    margin: 5%;
+}
+#landing-jumbo {
+    margin: 7% 0;
+    background-color: transparent;
+}
+#landing-card {
+	border: none;
+	max-height: 700px;
+}
+footer {
+    padding-bottom: 10px;
+}
+#landing-text-pholder {
+    width: 40vw;
+    height: 50vh;
+    padding: 0;
+}
+#landing-card {
+    margin: 10% 0;
+}
+footer.blockquote-footer {
+    padding-top: 10px;
+}
+#teammate {
+    margin: 15% auto;
+    width: 90%;
+}
+.card-teammate {
+    margin-bottom: 5%;
+}
+.executives {
+    font-weight: 200;
+    font-size: small;
+    margin: 0;
+}
+.executives span {
+    font-weight: bold;
+}
+#footer-container {
+    background-color: #2d3e50;
+}
+.is-visible {
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,.1), 0 1px 4px rgba(0,0,0,.05);
+}
+#mainNav .fa-search, #mainNav .nav-link {
+    color: #141414!important;
+}
+#mainNav .navbar-brand, #mainNav .navbar-brand:hover,
+#mainNav.is-fixed .navbar-brand, #mainNav.is-fixed .navbar-brand:focus {
+    color: #A9FBC3!important;
+}
+#mainNav .navbar-brand:hover,
+#mainNav.is-fixed .navbar-brand:hover {
+    text-shadow: 0 0 3px #666!important;
+}
+#wrapper {
+    min-height: 700px;
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+a[title="Signout"],
+a[title="Browse own article list"],
+a[title="Write a post"],
+a[title="See More Articles"],
+a[title="Interests"],
+a[title="Admin"],
+a[title="Setting"] {
+    padding: .25rem 0.5rem;
+}
+#content {
+    margin: 0 auto;
+}
+#tags {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3); 
+    transition: all 200ms ease-out;
+    padding: 12px;
+    text-decoration: none;
+}
+#tags:hover {
+    box-shadow: 0 0 6px rgba(35, 173, 255, 1);
+}
+textarea {
+    resize: none;
+}
+.header-title {
+    color: green;
+    font-weight: 500;
+}
+span.border-custom {
+    border-left: 4px solid;
+    border-color: inherit;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+	html {
+		font-size: 1.2rem;
+ 	}
+ 	#StartSharing {
+ 		font-size: 5rem;
+ 		font-weight: 300;
+ 		margin-top: -5%!important;
+ 	}   
+    #landing-text-pholder {
+        width: 40vw;
+        height: 65vh;
+        padding: 15vh 0;
+    }
+    #login, #wrapper {
+        padding-top: 100px;
+    }
+    #wrapper {
+    margin-top: 20px;
+    }
+    #mainNav.is-fixed {
+    top: -120px;
+    }
+    #article {
+        width: 70%;
+    }
+    #comments {
+        width: 50%;
+    }
+    .user-info {
+        width: 50%;
+    }
+    #admin_articles {
+        width: 60%;
+        margin: 0 auto;
+    }
+    header.masthead {
+        background-image: url('../img/home-bg.jpg');
+        height: 90vh;
+    }
+    div#landing-4 {
+        background: url('../img/landing-4.jpg');
+        background-size: cover;
+        height: 90vh;
+    }
+    #teammate {
+        margin: 8% auto;
+        width: 60%;
+    }
+
+
+
+}
